@@ -2,6 +2,7 @@
   "files": [],
   "references": [
     { "path": "./packages/common/src" },
+    { "path": "./packages/create-disposables/src" },
     { "path": "./packages/patterns/src" },
     { "path": "./packages/mark-text/src" },
     { "path": "./packages/mostly-equal/src" },

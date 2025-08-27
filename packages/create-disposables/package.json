@@ -1,0 +1,27 @@
+{
+  "name": "@dazl/create-disposables",
+  "version": "18.4.1",
+  "type": "module",
+  "description": "A utility for saving objects to be disposed",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "author": "Dazl",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "!*/test",
+    "!*/tsconfig.{json,tsbuildinfo}"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazl-dev/core3-utils.git",
+    "directory": "packages/create-disposables"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
