@@ -11,7 +11,7 @@
     "@file-services/node": "^10.0.1",
     "@file-services/types": "^10.0.1"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "sideEffects": false,
   "files": [
     "dist",

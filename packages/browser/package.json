@@ -7,7 +7,7 @@
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "sideEffects": false,
   "files": [
     "dist",

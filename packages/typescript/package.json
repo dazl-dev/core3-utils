@@ -10,7 +10,7 @@
   "dependencies": {
     "@dazl/common": "^18.4.1"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "files": [
     "dist",
     "src",

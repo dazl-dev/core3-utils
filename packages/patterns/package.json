@@ -2,12 +2,12 @@
   "name": "@dazl/patterns",
   "version": "18.4.1",
   "type": "module",
-  "description": "A utility for saving objects to be disposed",
+  "description": "Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, Disposable, Debouncer",
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "sideEffects": false,
   "files": [
     "dist",

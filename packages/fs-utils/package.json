@@ -13,7 +13,7 @@
     "@dazl/common": "^18.4.1",
     "type-fest": "^4.41.0"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "sideEffects": false,
   "files": [
     "dist",

@@ -18,7 +18,7 @@
     "prettier": "^3.6.2",
     "promise-assist": "^2.0.1"
   },
-  "author": "Wix.com",
+  "author": "Dazl",
   "files": [
     "dist",
     "src",

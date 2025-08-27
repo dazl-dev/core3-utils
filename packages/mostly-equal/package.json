@@ -20,7 +20,7 @@
     "mostly-equal-chai.d.ts"
   ],
   "license": "MIT",
-  "author": "Wix.com",
+  "author": "Dazl",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dazl-dev/core3-utils.git",
