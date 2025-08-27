@@ -4,7 +4,7 @@ import {
     type DisposableOptions,
     type DisposableItem,
     type GroupConstraints,
-} from '@wixc3/patterns';
+} from '@dazl/patterns';
 import { _afterEach } from './mocha-helpers.js';
 
 const disposables = createDisposables('global afterDispose');

@@ -12,7 +12,7 @@ import type { Assertion, AssertionMethod, AssertionStackItem, FunctionToRetry, R
  * @example
  * ```ts
  * import chai from 'chai';
- * import { chaiRetryPlugin } from '@wixc3/testing';
+ * import { chaiRetryPlugin } from '@dazl/testing';
  *
  * chai.use(chaiRetryPlugin);
  * ```

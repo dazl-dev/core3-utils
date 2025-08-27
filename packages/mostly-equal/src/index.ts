@@ -8,7 +8,7 @@
  * ```ts
  *  import * as chai from 'chai';
  *  import { expect } from 'chai';
- *  import {mostlyEqlChaiPlugin, notImportant} from '@wixc3/mostly-equal'
+ *  import {mostlyEqlChaiPlugin, notImportant} from '@dazl/mostly-equal'
  *  chai.use(mostlyEqlChaiPlugin)
  *  expect({a: 1}).to.mostlyEqual({
  *           a: 1,

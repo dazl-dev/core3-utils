@@ -1,4 +1,4 @@
-import { isString } from '@wixc3/common';
+import { isString } from '@dazl/common';
 import { deferred } from 'promise-assist';
 import { disposeAfter } from '../dispose.js';
 import { mochaCtx } from '../mocha-ctx.js';

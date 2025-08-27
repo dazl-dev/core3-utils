@@ -1,4 +1,4 @@
-import { createDisposables } from '@wixc3/patterns';
+import { createDisposables } from '@dazl/patterns';
 import { mochaCtx } from './mocha-ctx.js';
 
 /**

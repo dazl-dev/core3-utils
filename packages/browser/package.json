@@ -1,5 +1,5 @@
 {
-  "name": "@wixc3/browser",
+  "name": "@dazl/browser",
   "version": "18.4.1",
   "type": "module",
   "description": "Browser only utils",

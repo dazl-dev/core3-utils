@@ -1,6 +1,6 @@
 import type { IFileSystem } from '@file-services/types';
 import type { PackageJson } from 'type-fest';
-import { isPlainObject } from '@wixc3/common';
+import { isPlainObject } from '@dazl/common';
 
 /**
  * Read and parse a directory's package.json

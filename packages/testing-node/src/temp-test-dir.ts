@@ -1,5 +1,5 @@
-import type { DisposableOptions } from '@wixc3/patterns';
-import { createDisposalGroup, DEFAULT_DISPOSAL_GROUP, disposeAfter as disposeAfterTest } from '@wixc3/testing';
+import type { DisposableOptions } from '@dazl/patterns';
+import { createDisposalGroup, DEFAULT_DISPOSAL_GROUP, disposeAfter as disposeAfterTest } from '@dazl/testing';
 import { createTempDirectorySync } from 'create-temp-directory';
 import fs from 'node:fs';
 import { retry } from 'promise-assist';

@@ -1,4 +1,4 @@
-import { noIdents } from '@wixc3/common';
+import { noIdents } from '@dazl/common';
 import { use } from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import type * as prettier from 'prettier';

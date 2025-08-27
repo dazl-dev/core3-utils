@@ -1,4 +1,4 @@
-import { chain, concat, find, isString, map, noWhiteSpace, type Predicate } from '@wixc3/common';
+import { chain, concat, find, isString, map, noWhiteSpace, type Predicate } from '@dazl/common';
 import * as ts from 'typescript';
 
 /**

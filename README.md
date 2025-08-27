@@ -12,15 +12,15 @@
 
 | Package                                                                         | Description                                                                                          |
 | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| [@wixc3/browser](https://dazl-dev.github.io/core3-utils/browser)             | Browser utilities                                                                                    |
-| [@wixc3/common](https://dazl-dev.github.io/core3-utils/common)               | Useful utils for strings, iterables, objects, maps, promises and other commonly used structures      |
-| [@wixc3/fs-utils](https://dazl-dev.github.io/core3-utils/fs-utils)           |                                                                                                      |
-| [@wixc3/mark-text](https://dazl-dev.github.io/core3-utils/mark-text)         |                                                                                                      |
-| [@wixc3/mostly-equal](https://dazl-dev.github.io/core3-utils/mostly-equal)   | Adds chai matches for partial equality of JSONs                                                      |
-| [@wixc3/node](https://dazl-dev.github.io/core3-utils/node)                   |                                                                                                      |
-| [@wixc3/patterns](https://dazl-dev.github.io/core3-utils/patterns)           | Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, Disposable, Debouncer |
-| [@wixc3/performance](https://dazl-dev.github.io/core3-utils/performance)     | Performance measuring                                                                                |
-| [@wixc3/testing](https://dazl-dev.github.io/core3-utils/testing)             | Utils for making mocha + chai testing easy and fun                                                   |
-| [@wixc3/testing-node](https://dazl-dev.github.io/core3-utils/testing-node)   | Utils for making mocha + chai testing easy and fun                                                   |
-| [@wixc3/typescript](https://dazl-dev.github.io/core3-utils/typescript)       | TypeScript utilities                                                                                 |
-| [@wixc3/wait-for-call](https://dazl-dev.github.io/core3-utils/wait-for-call) | A handy way to test callbacks                                                                        |
+| [@dazl/browser](https://dazl-dev.github.io/core3-utils/browser)             | Browser utilities                                                                                    |
+| [@dazl/common](https://dazl-dev.github.io/core3-utils/common)               | Useful utils for strings, iterables, objects, maps, promises and other commonly used structures      |
+| [@dazl/fs-utils](https://dazl-dev.github.io/core3-utils/fs-utils)           |                                                                                                      |
+| [@dazl/mark-text](https://dazl-dev.github.io/core3-utils/mark-text)         |                                                                                                      |
+| [@dazl/mostly-equal](https://dazl-dev.github.io/core3-utils/mostly-equal)   | Adds chai matches for partial equality of JSONs                                                      |
+| [@dazl/node](https://dazl-dev.github.io/core3-utils/node)                   |                                                                                                      |
+| [@dazl/patterns](https://dazl-dev.github.io/core3-utils/patterns)           | Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, Disposable, Debouncer |
+| [@dazl/performance](https://dazl-dev.github.io/core3-utils/performance)     | Performance measuring                                                                                |
+| [@dazl/testing](https://dazl-dev.github.io/core3-utils/testing)             | Utils for making mocha + chai testing easy and fun                                                   |
+| [@dazl/testing-node](https://dazl-dev.github.io/core3-utils/testing-node)   | Utils for making mocha + chai testing easy and fun                                                   |
+| [@dazl/typescript](https://dazl-dev.github.io/core3-utils/typescript)       | TypeScript utilities                                                                                 |
+| [@dazl/wait-for-call](https://dazl-dev.github.io/core3-utils/wait-for-call) | A handy way to test callbacks                                                                        |

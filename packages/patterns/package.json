@@ -1,5 +1,5 @@
 {
-  "name": "@wixc3/patterns",
+  "name": "@dazl/patterns",
   "version": "18.4.1",
   "type": "module",
   "description": "A utility for saving objects to be disposed",
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@wixc3/common": "^18.4.1",
+    "@dazl/common": "^18.4.1",
     "promise-assist": "^2.0.1"
   }
 }

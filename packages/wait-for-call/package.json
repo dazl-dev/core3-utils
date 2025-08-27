@@ -1,5 +1,5 @@
 {
-  "name": "@wixc3/wait-for-call",
+  "name": "@dazl/wait-for-call",
   "version": "18.4.1",
   "type": "module",
   "exports": {

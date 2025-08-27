@@ -1,5 +1,5 @@
 {
-  "name": "@wixc3/performance",
+  "name": "@dazl/performance",
   "version": "18.4.1",
   "type": "module",
   "description": "Performance utils, usable in all environments",

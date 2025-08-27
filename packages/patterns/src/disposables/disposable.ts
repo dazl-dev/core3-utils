@@ -1,4 +1,4 @@
-import { defaults, noop } from '@wixc3/common';
+import { defaults, noop } from '@dazl/common';
 import { deferred } from 'promise-assist';
 import { Disposables } from './create-disposables.js';
 

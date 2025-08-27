@@ -1,4 +1,4 @@
-import { isIterable, map } from '@wixc3/common';
+import { isIterable, map } from '@dazl/common';
 import type ts from 'typescript';
 
 export const getText = (found: Iterable<ts.Node> | ts.Node | undefined) =>

@@ -1,4 +1,4 @@
-import { map } from '@wixc3/common';
+import { map } from '@dazl/common';
 import type { Formatter } from './types.js';
 
 export interface PseudoElement {

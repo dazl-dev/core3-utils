@@ -1,4 +1,4 @@
-import type { Predicate } from '@wixc3/common';
+import type { Predicate } from '@dazl/common';
 import * as ts from 'typescript';
 import { compileCode } from './compile.js';
 import { findNode, findNodeAfterComment } from './find.js';

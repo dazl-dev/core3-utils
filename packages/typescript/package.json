@@ -1,5 +1,5 @@
 {
-  "name": "@wixc3/typescript",
+  "name": "@dazl/typescript",
   "version": "18.4.1",
   "type": "module",
   "description": "API ",
@@ -8,7 +8,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@wixc3/common": "^18.4.1"
+    "@dazl/common": "^18.4.1"
   },
   "author": "Wix.com",
   "files": [

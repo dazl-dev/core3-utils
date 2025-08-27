@@ -58,8 +58,8 @@ describe('isPathIncludesDir', function () {
 
 describe('extensions and import paths', () => {
     it('gets correct file extensions', () => {
-        expect(getFullExtname('@wixc3/some-package')).to.equal('');
-        expect(getFullExtname('@wixc3/some-package/k.ts')).to.equal('.ts');
+        expect(getFullExtname('@dazl/some-package')).to.equal('');
+        expect(getFullExtname('@dazl/some-package/k.ts')).to.equal('.ts');
         expect(getFullExtname('../ab/cd.ts')).to.equal('.ts');
         expect(getFullExtname('../ab/cd.tsx')).to.equal('.tsx');
         expect(getFullExtname('../ab/cd.skin.ts')).to.equal('.skin.ts');
@@ -72,8 +72,8 @@ describe('extensions and import paths', () => {
     });
 
     it('gets correct import paths', () => {
-        expect(getImportPath('@wixc3/some-package')).to.equal('@wixc3/some-package');
-        expect(getImportPath('@wixc3/some-package/k.ts')).to.equal('@wixc3/some-package/k');
+        expect(getImportPath('@dazl/some-package')).to.equal('@dazl/some-package');
+        expect(getImportPath('@dazl/some-package/k.ts')).to.equal('@dazl/some-package/k');
         expect(getImportPath('../ab/cd.ts')).to.equal('../ab/cd');
         expect(getImportPath('../ab/cd.tsx')).to.equal('../ab/cd');
         expect(getImportPath('../ab/cd.skin.ts')).to.equal('../ab/cd.skin');
@@ -101,7 +101,7 @@ describe('rebaseRelativeModulePath()', () => {
         });
 
         it('rebase module path', () => {
-            expect(rebaseRelativeModulePath('/src/a.ts', '@wixc3/some-package')).to.equal('@wixc3/some-package');
+            expect(rebaseRelativeModulePath('/src/a.ts', '@dazl/some-package')).to.equal('@dazl/some-package');
         });
     });
     describe('windows', () => {
@@ -118,7 +118,7 @@ describe('rebaseRelativeModulePath()', () => {
         });
 
         it('rebase module path', () => {
-            expect(rebaseRelativeModulePath('C:/src/a.ts', '@wixc3/some-package')).to.equal('@wixc3/some-package');
+            expect(rebaseRelativeModulePath('C:/src/a.ts', '@dazl/some-package')).to.equal('@dazl/some-package');
         });
     });
 });
