@@ -1,6 +1,6 @@
 {
   "name": "@dazl/testing-node",
-  "version": "18.4.1",
+  "version": "18.5.0",
   "type": "module",
   "description": "Making mocha/chai testing easier",
   "exports": {
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@dazl/patterns": "^18.4.1",
-    "@dazl/testing": "^18.4.1",
+    "@dazl/patterns": "^18.5.0",
+    "@dazl/testing": "^18.5.0",
     "create-temp-directory": "^2.4.0",
     "promise-assist": "^2.0.1"
   },

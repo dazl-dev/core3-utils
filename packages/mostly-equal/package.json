@@ -1,6 +1,6 @@
 {
   "name": "@dazl/mostly-equal",
-  "version": "18.4.1",
+  "version": "18.5.0",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
@@ -10,7 +10,7 @@
     "test": "mocha \"dist/test/**/*.unit.js\""
   },
   "dependencies": {
-    "@dazl/common": "^18.4.1"
+    "@dazl/common": "^18.5.0"
   },
   "files": [
     "dist",

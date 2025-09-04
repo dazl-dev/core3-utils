@@ -1,6 +1,6 @@
 {
   "name": "@dazl/fs-utils",
-  "version": "18.4.1",
+  "version": "18.5.0",
   "type": "module",
   "description": "Filesystem utils, usable in all environments",
   "exports": {
@@ -8,9 +8,9 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
+    "@dazl/common": "^18.5.0",
     "@file-services/path": "^11.0.0",
     "@file-services/types": "^11.0.0",
-    "@dazl/common": "^18.4.1",
     "type-fest": "^4.41.0"
   },
   "author": "Dazl",
