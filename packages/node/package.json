@@ -8,8 +8,8 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@file-services/node": "^11.0.0",
-    "@file-services/types": "^11.0.0"
+    "@file-services/node": "^11.0.1",
+    "@file-services/types": "^11.0.1"
   },
   "author": "Dazl",
   "sideEffects": false,
