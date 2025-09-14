@@ -1,6 +1,6 @@
 {
   "name": "@dazl/common",
-  "version": "18.5.0",
+  "version": "18.5.1",
   "type": "module",
   "description": "Common utils, usable in all environments",
   "exports": {

@@ -1,6 +1,6 @@
 {
   "name": "@dazl/create-disposables",
-  "version": "18.5.0",
+  "version": "18.5.1",
   "type": "module",
   "description": "A utility for saving objects to be disposed",
   "exports": {
