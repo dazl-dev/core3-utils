@@ -13,7 +13,7 @@
   "dependencies": {
     "@dazl/common": "^18.5.1",
     "@dazl/patterns": "^18.5.1",
-    "chai": "^6.0.1",
+    "chai": "^6.2.0",
     "create-temp-directory": "^2.4.0",
     "prettier": "^3.6.2",
     "promise-assist": "^2.0.1"
