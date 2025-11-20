@@ -112,7 +112,6 @@ typeof value === 'object' && value !== null && 'foo' in value && value.foo === '
 | [prev(iterable, item)](https://dazl-dev.github.io/core3-utils/common.prev) | Find the element before an item |
 | [randomizedOrder(size)](https://dazl-dev.github.io/core3-utils/common.randomizedorder) | |
 | [reduce(iterable, reducer, initial)](https://dazl-dev.github.io/core3-utils/common.reduce) | |
-| [reportError_2(ex)](https://dazl-dev.github.io/core3-utils/common.reporterror_2) | Logs an error |
 | [reverseObject(obj)](https://dazl-dev.github.io/core3-utils/common.reverseobject) | Reverses keys-values of an object, ignoring falsy values. First takes on value collisions. |
 | [same(a, b, unordered)](https://dazl-dev.github.io/core3-utils/common.same) | Deep comparison of two objects |
 | [seededRandomInt(min, max)](https://dazl-dev.github.io/core3-utils/common.seededrandomint) | |

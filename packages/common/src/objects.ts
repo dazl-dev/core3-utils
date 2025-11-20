@@ -80,15 +80,6 @@ export function isPlainObject(value: unknown): value is Record<string | number |
 }
 
 /**
- * Logs an error
- * @deprecated This function is an anti-pattern, and was used by everyone to bypass the no-console lint rule; avoid using it! *Handle failures* rather than only printing them to the console.
- */
-export function reportError(ex: unknown) {
-    // eslint-disable-next-line no-console
-    console.error(ex);
-}
-
-/**
  * Awaits a record of promises, and returns a record of their results.
  */
 export async function awaitRecord<
