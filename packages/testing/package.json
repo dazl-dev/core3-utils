@@ -1,6 +1,6 @@
 {
   "name": "@dazl/testing",
-  "version": "18.5.1",
+  "version": "18.6.0",
   "type": "module",
   "description": "Making mocha/chai testing easier",
   "exports": {
@@ -11,8 +11,8 @@
     "sinon": ">=19"
   },
   "dependencies": {
-    "@dazl/common": "^18.5.1",
-    "@dazl/patterns": "^18.5.1",
+    "@dazl/common": "^18.6.0",
+    "@dazl/patterns": "^18.6.0",
     "chai": "^6.2.1",
     "create-temp-directory": "^2.4.0",
     "prettier": "^3.6.2",

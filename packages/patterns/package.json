@@ -1,6 +1,6 @@
 {
   "name": "@dazl/patterns",
-  "version": "18.5.1",
+  "version": "18.6.0",
   "type": "module",
   "description": "Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, Disposable, Debouncer",
   "exports": {
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@dazl/common": "^18.5.1",
+    "@dazl/common": "^18.6.0",
     "promise-assist": "^2.0.1"
   }
 }
