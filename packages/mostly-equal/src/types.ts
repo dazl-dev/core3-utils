@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-redundant-type-constituents */
 export interface Formatter {
     isApplicable: (value: unknown, lookupPath: LookupPath) => boolean;
     format: (value: unknown, lookupPath: LookupPath) => unknown;

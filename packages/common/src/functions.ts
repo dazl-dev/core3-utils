@@ -46,6 +46,7 @@ export function delayed<T extends (...args: any[]) => any>(
     fn: T,
     wait: number,
 ): (...args: Parameters<T>) => Promise<ReturnType<T>> {
+    // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
     let queue: Promise<ReturnType<T> | void> | null = null;
     return ((...args: Parameters<T>) => {
         if (!queue) {

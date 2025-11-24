@@ -117,7 +117,7 @@ export function locatorTimeout(ms = 10_000) {
  * Creates an object with {@link scaleTimeout| scaled } timeout
  * and adjust the current test timeout accordingly
  */
-export function debugSafeTimeout<T extends object & { timeout?: number }>(
+export function debugSafeTimeout<T extends object>(
     ms = 10_000,
     rest = {} as T,
 ): // Readonly<T> is needed to avoid TS error when using values that extend string (example state?:'visible'|'hidden'...)
