@@ -11,21 +11,21 @@ Useful utils for strings, iterables, objects, maps, promises and other commonly 
 
 ## Classes
 
-| Class                                                                                         | Description                                                                                                                                  |
-| --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Class                                                                                      | Description                                                                                                                                  |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [ErrorWithCode](https://dazl-dev.github.io/core3-utils/common.errorwithcode)               | Creates an error with error code. Helpful when <code>instanceof</code> can't be used because the error was serialized and then deserialized. |
 | [UnreachableCaseError](https://dazl-dev.github.io/core3-utils/common.unreachablecaseerror) | Allows the type checker to detect non-exhaustive switch statements.                                                                          |
 
 ## Enumerations
 
-| Enumeration                                                                           | Description |
-| ------------------------------------------------------------------------------------- | ----------- |
+| Enumeration                                                                        | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
 | [NamingConvention](https://dazl-dev.github.io/core3-utils/common.namingconvention) |             |
 
 ## Functions
 
-| Function                                                                                                                 | Description                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Function                                                                                                              | Description                                                                                                                                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [addToSet(target, source)](https://dazl-dev.github.io/core3-utils/common.addtoset)                                    |                                                                                                                                                                                                                                                                     |
 | [assertIsString(value, errorMessage)](https://dazl-dev.github.io/core3-utils/common.assertisstring)                   | Throws if value is not a string                                                                                                                                                                                                                                     |
 | [asyncNoop()](https://dazl-dev.github.io/core3-utils/common.asyncnoop)                                                |                                                                                                                                                                                                                                                                     |
@@ -139,8 +139,8 @@ typeof value === 'object' && value !== null && 'foo' in value && value.foo === '
 
 ## Variables
 
-| Variable                                                                                                | Description                                    |
-| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Variable                                                                                             | Description                                    |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | [isElectronRendererProcess](https://dazl-dev.github.io/core3-utils/common.iselectronrendererprocess) |                                                |
 | [isMac](https://dazl-dev.github.io/core3-utils/common.ismac)                                         |                                                |
 | [isWindows](https://dazl-dev.github.io/core3-utils/common.iswindows)                                 |                                                |
@@ -148,8 +148,8 @@ typeof value === 'object' && value !== null && 'foo' in value && value.foo === '
 
 ## Type Aliases
 
-| Type Alias                                                                                  | Description                                                |
-| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Type Alias                                                                               | Description                                                |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | [Awaited_2](https://dazl-dev.github.io/core3-utils/common.awaited_2)                     | The resolved value of T (if a promise, otherwise simply T) |
 | [Chain](https://dazl-dev.github.io/core3-utils/common.chain)                             |                                                            |
 | [Flat](https://dazl-dev.github.io/core3-utils/common.flat)                               |                                                            |

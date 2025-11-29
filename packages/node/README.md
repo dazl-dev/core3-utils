@@ -9,8 +9,8 @@
 
 ## Functions
 
-| Function                                                                                                                  | Description |
-| ------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| Function                                                                                                               | Description |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [readFolderSync(fs, folderPath)](https://dazl-dev.github.io/core3-utils/node.readfoldersync)                           |             |
 | [readFolderSyncNode(fromFileName, relativeFolderPath)](https://dazl-dev.github.io/core3-utils/node.readfoldersyncnode) |             |
 | [registerMappings(newMappings)](https://dazl-dev.github.io/core3-utils/node.registermappings)                          |             |
@@ -18,6 +18,6 @@
 
 ## Interfaces
 
-| Interface                                                                               | Description |
-| --------------------------------------------------------------------------------------- | ----------- |
+| Interface                                                                            | Description |
+| ------------------------------------------------------------------------------------ | ----------- |
 | [ISpawnAsyncOptions](https://dazl-dev.github.io/core3-utils/node.ispawnasyncoptions) |             |

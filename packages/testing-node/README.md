@@ -41,12 +41,12 @@ Steps are a convenient way to craft async tests. A step has a timeout and a desc
 
 ## Functions
 
-| Function                                                                                                                     | Description                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Function                                                                                                                  | Description                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | [createTestDir(prefix, disposalOptions, disposeAfter)](https://dazl-dev.github.io/core3-utils/testing-node.createtestdir) | Creates a test temporary directory The directory will be deleted after the test, thus not suitable for suites ("describe") |
 
 ## Variables
 
-| Variable                                                                                            | Description |
-| --------------------------------------------------------------------------------------------------- | ----------- |
+| Variable                                                                                         | Description |
+| ------------------------------------------------------------------------------------------------ | ----------- |
 | [DISPOSE_OF_TEMP_DIRS](https://dazl-dev.github.io/core3-utils/testing-node.dispose_of_temp_dirs) |             |

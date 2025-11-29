@@ -9,27 +9,27 @@
 
 ## Functions
 
-| Function                                                                                     | Description |
-| -------------------------------------------------------------------------------------------- | ----------- |
+| Function                                                                                  | Description |
+| ----------------------------------------------------------------------------------------- | ----------- |
 | [createMarkers(markKeys)](https://dazl-dev.github.io/core3-utils/mark-text.createmarkers) |             |
 
 ## Interfaces
 
-| Interface                                                                        | Description |
-| -------------------------------------------------------------------------------- | ----------- |
+| Interface                                                                     | Description |
+| ----------------------------------------------------------------------------- | ----------- |
 | [MarkedString](https://dazl-dev.github.io/core3-utils/mark-text.markedstring) |             |
 | [Pos](https://dazl-dev.github.io/core3-utils/mark-text.pos)                   |             |
 
 ## Variables
 
-| Variable                                                                 | Description |
-| ------------------------------------------------------------------------ | ----------- |
+| Variable                                                              | Description |
+| --------------------------------------------------------------------- | ----------- |
 | [markText](https://dazl-dev.github.io/core3-utils/mark-text.marktext) |             |
 
 ## Type Aliases
 
-| Type Alias                                                             | Description |
-| ---------------------------------------------------------------------- | ----------- |
+| Type Alias                                                          | Description |
+| ------------------------------------------------------------------- | ----------- |
 | [Mark](https://dazl-dev.github.io/core3-utils/mark-text.mark)       |             |
 | [Marker](https://dazl-dev.github.io/core3-utils/mark-text.marker)   |             |
 | [Markers](https://dazl-dev.github.io/core3-utils/mark-text.markers) |             |

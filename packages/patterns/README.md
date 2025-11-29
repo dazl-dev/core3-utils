@@ -11,8 +11,8 @@ Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, D
 
 ## Classes
 
-| Class                                                                               | Description                                                                             |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Class                                                                            | Description                                                                             |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | [Debouncer](https://dazl-dev.github.io/core3-utils/patterns.debouncer)           | Cancelable debouncing of calls to trigger                                               |
 | [Disposable_2](https://dazl-dev.github.io/core3-utils/patterns.disposable_2)     |                                                                                         |
 | [Disposables](https://dazl-dev.github.io/core3-utils/patterns.disposables)       |                                                                                         |
@@ -24,31 +24,31 @@ Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, D
 
 ## Functions
 
-| Function                                                                                                       | Description                                                                                                                                                                                                                                                                                                                                                              |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Function                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [createDisposables(name, initialGroups)](https://dazl-dev.github.io/core3-utils/patterns.createdisposables) | <p>Disposables allow adding of disposal async functions, when dispose is called, these functions will be run sequentially</p><p>Disposal groups: You can set disposal groups with constraints (before, after) to ensure that disposal groups are disposed in the correct order</p><p>within each group disposables are disposed in the reverse order they were added</p> |
 | [isDisposable(value)](https://dazl-dev.github.io/core3-utils/patterns.isdisposable)                         |                                                                                                                                                                                                                                                                                                                                                                          |
 | [isSetMultiMap(x)](https://dazl-dev.github.io/core3-utils/patterns.issetmultimap)                           |                                                                                                                                                                                                                                                                                                                                                                          |
 
 ## Interfaces
 
-| Interface                                                                           | Description |
-| ----------------------------------------------------------------------------------- | ----------- |
+| Interface                                                                        | Description |
+| -------------------------------------------------------------------------------- | ----------- |
 | [DisposalGroup](https://dazl-dev.github.io/core3-utils/patterns.disposalgroup)   |             |
 | [IDisposable](https://dazl-dev.github.io/core3-utils/patterns.idisposable)       |             |
 | [LRUCacheConfig](https://dazl-dev.github.io/core3-utils/patterns.lrucacheconfig) |             |
 
 ## Variables
 
-| Variable                                                                              | Description |
-| ------------------------------------------------------------------------------------- | ----------- |
+| Variable                                                                           | Description |
+| ---------------------------------------------------------------------------------- | ----------- |
 | [DEFAULT_GROUP](https://dazl-dev.github.io/core3-utils/patterns.default_group)     |             |
 | [DEFAULT_TIMEOUT](https://dazl-dev.github.io/core3-utils/patterns.default_timeout) |             |
 
 ## Type Aliases
 
-| Type Alias                                                                                | Description |
-| ----------------------------------------------------------------------------------------- | ----------- |
+| Type Alias                                                                             | Description |
+| -------------------------------------------------------------------------------------- | ----------- |
 | [DisposableItem](https://dazl-dev.github.io/core3-utils/patterns.disposableitem)       |             |
 | [DisposableOptions](https://dazl-dev.github.io/core3-utils/patterns.disposableoptions) |             |
 | [GroupConstraints](https://dazl-dev.github.io/core3-utils/patterns.groupconstraints)   |             |

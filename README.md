@@ -10,8 +10,8 @@
 
 ## Packages
 
-| Package                                                                         | Description                                                                                          |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Package                                                                     | Description                                                                                          |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | [@dazl/browser](https://dazl-dev.github.io/core3-utils/browser)             | Browser utilities                                                                                    |
 | [@dazl/common](https://dazl-dev.github.io/core3-utils/common)               | Useful utils for strings, iterables, objects, maps, promises and other commonly used structures      |
 | [@dazl/fs-utils](https://dazl-dev.github.io/core3-utils/fs-utils)           |                                                                                                      |

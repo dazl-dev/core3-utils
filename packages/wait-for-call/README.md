@@ -11,6 +11,6 @@ A handy way to test callbacks
 
 ## Functions
 
-| Function                                                                                                | Description |
-| ------------------------------------------------------------------------------------------------------- | ----------- |
+| Function                                                                                             | Description |
+| ---------------------------------------------------------------------------------------------------- | ----------- |
 | [createWaitForCall(name, f)](https://dazl-dev.github.io/core3-utils/wait-for-call.createwaitforcall) |             |

@@ -9,8 +9,8 @@
 
 ## Functions
 
-| Function                                                                                                                                                  | Description                                                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Function                                                                                                                                               | Description                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [addRelativePrefix(path)](https://dazl-dev.github.io/core3-utils/fs-utils.addrelativeprefix)                                                           |                                                                                                                                                      |
 | [createImportPath({ importedFilePath, targetFilePath, targetPackageJsonPath, fs, })](https://dazl-dev.github.io/core3-utils/fs-utils.createimportpath) | Returns relative import path if imported and target files are in the same package, otherwise returns a bare import specifier.                        |
 | [formatToOSpaths(str)](https://dazl-dev.github.io/core3-utils/fs-utils.formattoospaths)                                                                |                                                                                                                                                      |
@@ -42,13 +42,13 @@
 
 ## Interfaces
 
-| Interface                                                                                                       | Description |
-| --------------------------------------------------------------------------------------------------------------- | ----------- |
+| Interface                                                                                                    | Description |
+| ------------------------------------------------------------------------------------------------------------ | ----------- |
 | [AdjustRelativeImportPathArgs](https://dazl-dev.github.io/core3-utils/fs-utils.adjustrelativeimportpathargs) |             |
 | [CreateImportPathArgs](https://dazl-dev.github.io/core3-utils/fs-utils.createimportpathargs)                 |             |
 
 ## Variables
 
-| Variable                                                                                  | Description                                          |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Variable                                                                               | Description                                          |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | [fileRequestPrefix](https://dazl-dev.github.io/core3-utils/fs-utils.filerequestprefix) | prefix for file requests in Language server protocol |

@@ -11,8 +11,8 @@ TypeScript utilities
 
 ## Functions
 
-| Function                                                                                                         | Description                                                                                                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Function                                                                                                      | Description                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [compileCode(code, fakePath)](https://dazl-dev.github.io/core3-utils/typescript.compilecode)                  | Compiles a code string to typescript AST                                                                                                                                                                                 |
 | [findAllNodes(source, predicate)](https://dazl-dev.github.io/core3-utils/typescript.findallnodes)             | Finds all nodes satisfying the predicate                                                                                                                                                                                 |
 | [findNode(source, predicate)](https://dazl-dev.github.io/core3-utils/typescript.findnode)                     | Finds the first node (via DFS) satisfying the predicate                                                                                                                                                                  |
@@ -23,6 +23,6 @@ TypeScript utilities
 
 ## Type Aliases
 
-| Type Alias                                                                  | Description |
-| --------------------------------------------------------------------------- | ----------- |
+| Type Alias                                                               | Description |
+| ------------------------------------------------------------------------ | ----------- |
 | [Comment_2](https://dazl-dev.github.io/core3-utils/typescript.comment_2) |             |

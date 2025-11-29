@@ -11,12 +11,12 @@ Browser utilities
 
 ## Abstract Classes
 
-| Abstract Class                                                                                       | Description |
-| ---------------------------------------------------------------------------------------------------- | ----------- |
+| Abstract Class                                                                                    | Description |
+| ------------------------------------------------------------------------------------------------- | ----------- |
 | [AnimationFrameScheduler](https://dazl-dev.github.io/core3-utils/browser.animationframescheduler) |             |
 
 ## Functions
 
-| Function                                                                                  | Description               |
-| ----------------------------------------------------------------------------------------- | ------------------------- |
+| Function                                                                               | Description               |
+| -------------------------------------------------------------------------------------- | ------------------------- |
 | [loadScript(src, document)](https://dazl-dev.github.io/core3-utils/browser.loadscript) | Loads a script in browser |

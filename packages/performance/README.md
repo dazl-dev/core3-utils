@@ -11,13 +11,13 @@ Performance measuring
 
 ## Interfaces
 
-| Interface                                                                          | Description |
-| ---------------------------------------------------------------------------------- | ----------- |
+| Interface                                                                       | Description |
+| ------------------------------------------------------------------------------- | ----------- |
 | [IPerformance](https://dazl-dev.github.io/core3-utils/performance.iperformance) |             |
 
 ## Variables
 
-| Variable                                                                                         | Description |
-| ------------------------------------------------------------------------------------------------ | ----------- |
+| Variable                                                                                      | Description |
+| --------------------------------------------------------------------------------------------- | ----------- |
 | [Performance_2](https://dazl-dev.github.io/core3-utils/performance.performance_2)             |             |
 | [performanceMeasures](https://dazl-dev.github.io/core3-utils/performance.performancemeasures) |             |
