@@ -15,7 +15,7 @@
     "@dazl/patterns": "^18.6.0",
     "chai": "^6.2.1",
     "create-temp-directory": "^2.4.0",
-    "prettier": "^3.7.2",
+    "prettier": "^3.7.3",
     "promise-assist": "^2.0.1"
   },
   "author": "Dazl",
