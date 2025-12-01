@@ -95,6 +95,7 @@ export class Debouncer<T extends (...args: any[]) => any> {
         }
         if (this.maxTimeout) {
             clearTimeout(this.maxTimeout);
+            this.maxTimeout = undefined;
         }
     }
 
