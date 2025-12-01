@@ -65,6 +65,7 @@ export class Debouncer<T extends (...args: any[]) => any> {
             this.execute();
             if (this.maxTimeout) {
                 clearTimeout(this.maxTimeout);
+                this.maxTimeout = undefined;
             }
         }, this.waitTime);
         if (!this.maxTimeout) {
@@ -73,6 +74,7 @@ export class Debouncer<T extends (...args: any[]) => any> {
                 if (this.timeout) {
                     clearTimeout(this.timeout);
                 }
+                this.maxTimeout = undefined;
             }, this.maxWaitTime);
         }
         return this.defer.promise;
