@@ -39,6 +39,18 @@ describe('Debounce', () => {
         clock.tick(2);
         expect(callback).to.have.callCount(1);
     });
+    it('triggers callback when max wait time is reached', () => {
+        const maxTimeout = 5;
+        const expectedCalls = 3;
+
+        const throttle = new Debouncer(callback, 2, maxTimeout);
+        for (let i = 0; i < (maxTimeout + 1) * expectedCalls; i++) {
+            promises.push(throttle.trigger());
+            clock.tick(1);
+        }
+
+        expect(callback).to.have.callCount(expectedCalls);
+    });
     it('if delaying call for more than max time, should trigger cb, go back to delaying', () => {
         const maxTimeout = 5;
         const throttle = new Debouncer(callback, 3, maxTimeout);
