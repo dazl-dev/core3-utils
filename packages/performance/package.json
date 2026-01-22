@@ -1,6 +1,6 @@
 {
   "name": "@dazl/performance",
-  "version": "18.6.1",
+  "version": "18.7.0",
   "type": "module",
   "description": "Performance utils, usable in all environments",
   "exports": {

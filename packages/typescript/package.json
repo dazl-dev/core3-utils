@@ -1,6 +1,6 @@
 {
   "name": "@dazl/typescript",
-  "version": "18.6.1",
+  "version": "18.7.0",
   "type": "module",
   "description": "API ",
   "exports": {
@@ -8,7 +8,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@dazl/common": "^18.6.1"
+    "@dazl/common": "^18.7.0"
   },
   "author": "Dazl",
   "files": [
