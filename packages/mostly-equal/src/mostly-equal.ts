@@ -187,7 +187,7 @@ const tryExpectVal = (
     passedSet: Set<any>,
     existsInParent: boolean,
 ): ErrorOrTextOrExpect => {
-    let matcherRes: string | void = undefined;
+    let matcherRes: string | void;
     try {
         matcherRes = expected.expectMethod(actual, existsInParent, path);
     } catch (err) {

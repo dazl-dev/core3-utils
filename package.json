@@ -15,6 +15,7 @@
     "prettify": "prettier . --write"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@file-services/memory": "^11.0.1",
     "@file-services/types": "^11.0.1",
     "@types/chai": "^5.2.3",
@@ -26,7 +27,7 @@
     "@types/yargs": "^17.0.35",
     "chai": "^6.2.2",
     "chai-as-promised": "^8.0.2",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "expose-gc": "^1.0.0",
@@ -36,7 +37,7 @@
     "sinon": "^21.0.1",
     "sinon-chai": "^4.0.1",
     "typescript": "~5.9.3",
-    "typescript-eslint": "^8.55.0"
+    "typescript-eslint": "^8.56.0"
   },
   "license": "MIT"
 }
