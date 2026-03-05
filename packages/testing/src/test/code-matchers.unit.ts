@@ -5,10 +5,13 @@ use(codeMatchers);
 
 const CODE = `const a=1;`;
 const EQUIVALENT = `const a = 1`;
+const FORMATTED_CODE = `const a = 1;\n`;
+
 const MULTILINE = `const a=1;
                    const b=2;`;
 const MULTILINE_EQUIVALENT = `const a = 1;
                               const b = 2`;
+const FORMATTED_MULTILINE = `const a = 1;\nconst b = 2;\n`;
 
 describe('matchCode', () => {
     describe('sanity', () => {
@@ -22,8 +25,12 @@ describe('matchCode', () => {
             await expect(CODE).not.to.matchCode(`const some="random code";`);
         });
         it('throws when code is not a equivalent', async () => {
-            await expect(expect(CODE).to.matchCode(`const some="random code";`)).to.be.rejectedWith(
-                'Expected code to match',
+            const expectedCode = `const some="random code";`;
+            const formattedExpectedCode = `const some = 'random code';`;
+            await expect(expect(CODE).to.matchCode(expectedCode)).to.be.rejectedWith(
+                `Actual code expected to match code:\n` +
+                    `---- Actual code:\n${FORMATTED_CODE}\n` +
+                    `---- Expected code:\n${formattedExpectedCode}`,
             );
         });
     });
@@ -63,8 +70,11 @@ describe('includeCode', () => {
         await expect(MULTILINE).not.to.includeCode(`const NOT='included';`);
     });
     it('throws when code is not a equivalent', async () => {
-        await expect(expect(MULTILINE).to.includeCode(`const some="random code";`)).to.be.rejectedWith(
-            'Expected code to include',
+        const expectedCode = `const some="random code";`;
+        await expect(expect(MULTILINE).to.includeCode(expectedCode)).to.be.rejectedWith(
+            `Actual code expected to include code:\n` +
+                `---- Actual code:\n${FORMATTED_MULTILINE}\n` +
+                `---- Expected code:\n${expectedCode}`,
         );
     });
 });
