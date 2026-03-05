@@ -61,7 +61,15 @@ export const codeMatchers: Chai.ChaiPlugin = (chai, utils) => {
         const actual = alignComments(await prettify(testedExpression, options));
         const expected = alignComments(await prettify(expectedCode, options));
 
-        this.assert(actual === expected, `Expected code to match`, `Expected code to not match`, expected, actual);
+        const codeBlocks = `---- Actual code:\n${actual}\n---- Expected code:\n${expected}`;
+
+        this.assert(
+            actual === expected,
+            `Actual code expected to match code:\n${codeBlocks}`,
+            `Actual code expected not to match code:\n${codeBlocks}`,
+            expected,
+            actual,
+        );
     }
 
     async function includeCode(
@@ -78,10 +86,12 @@ export const codeMatchers: Chai.ChaiPlugin = (chai, utils) => {
         const actual = noIdents(alignComments(await prettify(testedExpression, options)));
         const expected = formatExpected ? noIdents(alignComments(await prettify(expectedCode, options))) : expectedCode;
 
+        const codeBlocks = `---- Actual code:\n${actual}\n---- Expected code:\n${expected}`;
+
         this.assert(
             actual.includes(expected),
-            `Expected code to include`,
-            `Expected code to not include`,
+            `Actual code expected to include code:\n${codeBlocks}`,
+            `Actual code expected not to include code:\n${codeBlocks}`,
             expected,
             actual,
         );
