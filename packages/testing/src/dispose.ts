@@ -72,7 +72,6 @@ export async function initAndDisposeAfter<T extends (...args: any[]) => any>(
 ): Promise<Awaited<ReturnType<T>>> {
     disposeAfter(target, options);
     const res = target.init(...args) as ReturnType<T>;
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return await Promise.resolve(res);
 }
 
