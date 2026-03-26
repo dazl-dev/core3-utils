@@ -6,6 +6,8 @@ import { retryFunctionAndAssertions } from './helpers.js';
 import type { Assertion, AssertionMethod, AssertionStackItem, FunctionToRetry, RetryOptions } from './types.js';
 
 /**
+ * @deprecated use `waitFor` from 'promise-assist' instead
+ *
  * Plugin that allows to re-run function passed to `expect`, in order to achieve that use new `retry` method, retrying would be performed until
  * the result will pass the chained assertion or timeout exceeded or retries limit reached.
  * Should be applied through `chai.use` function, for example:
