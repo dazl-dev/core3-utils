@@ -25,24 +25,6 @@ Utils for making mocha + chai testing easy and fun
 
 - [locatorTimeout()](https://dazl-dev.github.io/core3-utils/testing.locatortimeout) creates a locator timeout and adjust the current test
 
-### Steps
-
-Steps are a convenient way to craft async tests. A step has a timeout and a description, making test timeouts easy to understand and debug. Each step timeout auto increases the test timeout, assuring the step will time out before the test
-
-#### Available steps:
-
-- [withTimeout()](https://dazl-dev.github.io/core3-utils/testing.withtimeout) adds timeout and description to a promise
-
-- [allWithTimeout()](https://dazl-dev.github.io/core3-utils/testing.allwithtimeout) time limited Promise.all
-
-- [waitForSpyCall()](https://dazl-dev.github.io/core3-utils/testing.waitforspycall) spies on a method and wait for first call
-
-- [waitForStubCall()](https://dazl-dev.github.io/core3-utils/testing.waitforstubcall) creates a one off stub and wait for it to be called
-
-- [step()](https://dazl-dev.github.io/core3-utils/testing.step) adds a description (but not timeout) to a promise, useful for playwright locator waitFor
-
-- [sleep()](https://dazl-dev.github.io/core3-utils/testing.sleep) sleep (and adjust test time)
-
 ## Functions
 
 | Function                                                                                                         | Description                                                                                                                                                                                                                                                                                                                        |
@@ -53,7 +35,6 @@ Steps are a convenient way to craft async tests. A step has a timeout and a desc
 | [chaiRetryPlugin(\_, { flag, inspect })](https://dazl-dev.github.io/core3-utils/testing.chairetryplugin)         | Plugin that allows to re-run function passed to <code>expect</code>, in order to achieve that use new <code>retry</code> method, retrying would be performed until the result will pass the chained assertion or timeout exceeded or retries limit reached. Should be applied through <code>Chai.use</code> function, for example: |
 | [createDisposalGroup(name, constraints)](https://dazl-dev.github.io/core3-utils/testing.createdisposalgroup)     | Creates a new disposal group                                                                                                                                                                                                                                                                                                       |
 | [debugSafeTimeout(ms, rest)](https://dazl-dev.github.io/core3-utils/testing.debugsafetimeout)                    | Creates an object with [scaled](https://dazl-dev.github.io/core3-utils/testing.scaletimeout) timeout and adjust the current test timeout accordingly                                                                                                                                                                               |
-| [defaults()](https://dazl-dev.github.io/core3-utils/testing.defaults)                                            | default values for steps of the current test                                                                                                                                                                                                                                                                                       |
 | [disposeAfter(disposable, options)](https://dazl-dev.github.io/core3-utils/testing.disposeafter)                 |                                                                                                                                                                                                                                                                                                                                    |
 | [getTimeoutScale()](https://dazl-dev.github.io/core3-utils/testing.gettimeoutscale)                              |                                                                                                                                                                                                                                                                                                                                    |
 | [initAndDisposeAfter(target, options, args)](https://dazl-dev.github.io/core3-utils/testing.initanddisposeafter) |                                                                                                                                                                                                                                                                                                                                    |
@@ -64,8 +45,6 @@ Steps are a convenient way to craft async tests. A step has a timeout and a desc
 | [overrideTimeoutScale(scale)](https://dazl-dev.github.io/core3-utils/testing.overridetimeoutscale)               | Overrides the TIMEOUT_MULTIPLIER for the current test                                                                                                                                                                                                                                                                              |
 | [randomizeTestsOrder(shouldRandomize)](https://dazl-dev.github.io/core3-utils/testing.randomizetestsorder)       | <p>Randomizes tests order</p><p>To avoid confusion, it can only be set once, before the testing begins (i.e. not in a running test)</p>                                                                                                                                                                                            |
 | [scaleTimeout(timeout)](https://dazl-dev.github.io/core3-utils/testing.scaletimeout)                             | Scales a timeout based on the TIMEOUT_MULTIPLIER and DEBUG environment variable                                                                                                                                                                                                                                                    |
-| [sleep(ms)](https://dazl-dev.github.io/core3-utils/testing.sleep)                                                | Resolves after ms milliseconds                                                                                                                                                                                                                                                                                                     |
-| [step(action)](https://dazl-dev.github.io/core3-utils/testing.step)                                              | <p>Adds a step description to a promise if it's rejected</p><p>\* - Note: useable only within a mocha test/hook. The total test timeout will be adjusted to make sure the test will not time out waiting for this step</p>                                                                                                         |
 | [useSafeFakeTimers()](https://dazl-dev.github.io/core3-utils/testing.usesafefaketimers)                          | Makes it easy to safely use fake timers                                                                                                                                                                                                                                                                                            |
 | [waitForSpyCall(scope, method)](https://dazl-dev.github.io/core3-utils/testing.waitforspycall)                   | Spies on an object method, waiting until it's called. The spy is removed once called                                                                                                                                                                                                                                               |
 | [waitForStubCall(action, waitForAction)](https://dazl-dev.github.io/core3-utils/testing.waitforstubcall)         | Creates a stub, then waits for it to be called                                                                                                                                                                                                                                                                                     |
@@ -76,11 +55,7 @@ Steps are a convenient way to craft async tests. A step has a timeout and a desc
 | Interface                                                                               | Description                       |
 | --------------------------------------------------------------------------------------- | --------------------------------- |
 | [Info](https://dazl-dev.github.io/core3-utils/testing.info)                             | Step info base, added step errors |
-| [PollDefaults](https://dazl-dev.github.io/core3-utils/testing.polldefaults)             | Defaults for poll steps           |
-| [PromiseStep](https://dazl-dev.github.io/core3-utils/testing.promisestep)               |                                   |
 | [PromiseWithTimeout](https://dazl-dev.github.io/core3-utils/testing.promisewithtimeout) | WithTimeout API                   |
-| [StepBase](https://dazl-dev.github.io/core3-utils/testing.stepbase)                     | Common step props                 |
-| [StepsDefaults](https://dazl-dev.github.io/core3-utils/testing.stepsdefaults)           | Test step defaults                |
 | [TimeoutDefaults](https://dazl-dev.github.io/core3-utils/testing.timeoutdefaults)       | Step timeout defaults             |
 
 ## Variables

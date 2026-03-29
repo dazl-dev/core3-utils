@@ -11,24 +11,6 @@ Utils for making mocha + chai testing easy and fun
 
 ## Remarks
 
-### Steps
-
-Steps are a convenient way to craft async tests. A step has a timeout and a description, making test timeouts easy to understand and debug. Each step timeout auto increases the test timeout, assuring the step will time out before the test
-
-#### Available steps:
-
-- adds timeout and description to a promise\]
-
-- time limited Promise.all
-
-- spies on a method and wait for first call
-
-- creates a one off stub and wait for it to be called
-
-- adds a description (but not timeout) to a promise, useful for playwright locator waitFor
-
-- sleep (and adjust test time)
-
 ### Test timeout manipulation
 
 - DEBUG=true env variable will set test timeouts and time dilation to infinity so tests (that don't explicitly override timeout) will not time out on breakpoints
