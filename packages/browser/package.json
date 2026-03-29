@@ -1,6 +1,6 @@
 {
   "name": "@dazl/browser",
-  "version": "18.9.0",
+  "version": "18.10.0",
   "type": "module",
   "description": "Browser only utils",
   "exports": {
