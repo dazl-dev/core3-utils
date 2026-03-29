@@ -1,6 +1,6 @@
 {
   "name": "@dazl/node",
-  "version": "18.7.0",
+  "version": "18.9.0",
   "type": "module",
   "description": "Common utils, usable in all environments",
   "exports": {
