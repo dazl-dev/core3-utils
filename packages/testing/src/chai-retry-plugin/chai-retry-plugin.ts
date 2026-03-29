@@ -1,6 +1,4 @@
 import * as chai from 'chai';
-import { isAdjustedTimeout } from '../timeouts.helpers.js';
-import { scaleTimeout } from '../timeouts.js';
 import type { PromiseLikeAssertion } from '../types.js';
 import { retryFunctionAndAssertions } from './helpers.js';
 import type { Assertion, AssertionMethod, AssertionStackItem, FunctionToRetry, RetryOptions } from './types.js';
@@ -44,16 +42,9 @@ export const chaiRetryPlugin = function (_: Chai.ChaiStatic, utils: Chai.ChaiUti
                     `Please pass function to \`expect\` in order to use \`chaiRetryPlugin\`. ${utils.inspect(functionToRetry)} is not a function.`,
                 );
             }
-            if (isAdjustedTimeout(retryOptions)) {
-                throw new Error(
-                    `retry is debug safe, don't use it with debugSafeTimeout, use { timeout: X, ... } instead.`,
-                );
-            }
 
             const defaultRetryOptions: Required<RetryOptions> = { timeout: 8_000, retries: Infinity, delay: 0 };
             const options: Required<RetryOptions> = { ...defaultRetryOptions, ...retryOptions };
-            options.delay = scaleTimeout(options.delay);
-            options.timeout = scaleTimeout(options.timeout);
 
             const assertionStack: AssertionStackItem[] = [];
             // Fake assertion object for catching calls of chained methods

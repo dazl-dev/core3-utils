@@ -1,6 +1,5 @@
 import * as chai from 'chai';
 import { deferred, timeout } from 'promise-assist';
-import { adjustCurrentTestTimeout, isDebugMode } from '../timeouts.js';
 import { chaiMethodsThatHandleFunction } from './constants.js';
 import type { AssertionMethod, RetryAndAssertArguments } from './types.js';
 
@@ -33,8 +32,7 @@ export const retryFunctionAndAssertions = async (retryParams: RetryAndAssertArgu
     const performRetries = async () => {
         let delay: Promise<void>;
 
-        for (let retriesCount = 0; (retriesCount < options.retries && !didTimeout) || isDebugMode(); retriesCount++) {
-            const time = Date.now();
+        for (let retriesCount = 0; retriesCount < options.retries && !didTimeout; retriesCount++) {
             try {
                 /**
                  * If assertion chain includes such method as `change`, `decrease` or `increase` that means function passed to
@@ -50,7 +48,6 @@ export const retryFunctionAndAssertions = async (retryParams: RetryAndAssertArgu
             } catch (error: any) {
                 if (!didTimeout) {
                     assertionError = error as Error;
-                    adjustTest(time, options.delay);
                     ({ cancel, delay } = sleep(options.delay));
                     await delay;
                 }
@@ -62,7 +59,7 @@ export const retryFunctionAndAssertions = async (retryParams: RetryAndAssertArgu
 
     const getTimeoutError = () => `Timed out after ${options.timeout}ms.`;
 
-    if (isDebugMode() || !options.timeout) {
+    if (!options.timeout) {
         return performRetries();
     } else {
         return timeout(performRetries(), options.timeout, getTimeoutError).catch((err) => {
@@ -95,14 +92,6 @@ const updateAssertion = async (
     assertion: Chai.Assertion,
     propertyName: keyof Chai.Assertion,
 ) => (method && args ? await method.apply(assertion, args) : (assertion[propertyName] as Chai.Assertion));
-
-const adjustTest = (time: number, delay: number): number => {
-    const now = Date.now();
-    const diff = now - time;
-
-    adjustCurrentTestTimeout(diff + delay);
-    return now + delay;
-};
 
 const sleep = (ms: number) => {
     const { promise, resolve, reject } = deferred();
