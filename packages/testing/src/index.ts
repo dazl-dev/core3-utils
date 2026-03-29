@@ -41,6 +41,5 @@ export * from './dispose.js';
 export * from './randomize-tests-order.js';
 export * from './mocha-ctx.js';
 export * from './chai-retry-plugin/index.js';
-export * from './create-test-disposables.js';
 export * from './code-matchers/index.js';
 export * from './timeouts.js';
