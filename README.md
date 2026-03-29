@@ -21,6 +21,5 @@
 | [@dazl/patterns](https://dazl-dev.github.io/core3-utils/patterns)           | Useful data structures such as LRU-Cache, set-multi-map, Signal, EventEmitter, Disposable, Debouncer |
 | [@dazl/performance](https://dazl-dev.github.io/core3-utils/performance)     | Performance measuring                                                                                |
 | [@dazl/testing](https://dazl-dev.github.io/core3-utils/testing)             | Utils for making mocha + chai testing easy and fun                                                   |
-| [@dazl/testing-node](https://dazl-dev.github.io/core3-utils/testing-node)   | Utils for making mocha + chai testing easy and fun                                                   |
 | [@dazl/typescript](https://dazl-dev.github.io/core3-utils/typescript)       | TypeScript utilities                                                                                 |
 | [@dazl/wait-for-call](https://dazl-dev.github.io/core3-utils/wait-for-call) | A handy way to test callbacks                                                                        |

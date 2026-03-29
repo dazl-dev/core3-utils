@@ -13,6 +13,5 @@
     { "path": "./packages/typescript/src" },
     { "path": "./packages/performance/src" },
     { "path": "./packages/testing/src" },
-    { "path": "./packages/testing-node/src" }
   ]
 }
