@@ -39,10 +39,5 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.1"
   },
-  "license": "MIT",
-  "overrides": {
-    "sinon": {
-      "@sinonjs/fake-timers": "15.2.1"
-    }
-  }
+  "license": "MIT"
 }
