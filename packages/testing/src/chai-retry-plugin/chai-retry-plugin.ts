@@ -87,7 +87,7 @@ export const chaiRetryPlugin = function (_: Chai.ChaiStatic, utils: Chai.ChaiUti
                     }
                     return new Proxy(value, {
                         get: function (target, key: string) {
-                            return proxyGetter(target as Assertion, key as keyof Chai.Assertion, proxySelf);
+                            return proxyGetter(target as Assertion, key, proxySelf);
                         },
                         apply: function (_, __, args: unknown[]) {
                             if (key === 'then') {
@@ -99,7 +99,7 @@ export const chaiRetryPlugin = function (_: Chai.ChaiStatic, utils: Chai.ChaiUti
 
                             return proxySelf;
                         },
-                    }) as Assertion;
+                    });
                 } else {
                     assertionStack.push(assertionStackItem);
                 }

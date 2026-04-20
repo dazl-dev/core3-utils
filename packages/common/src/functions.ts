@@ -46,7 +46,7 @@ export function delayed<T extends (...args: any[]) => any>(
     wait: number,
 ): (...args: Parameters<T>) => Promise<ReturnType<T>> {
     let queue: Promise<ReturnType<T> | void> | null = null;
-    return ((...args: Parameters<T>) => {
+    return (...args: Parameters<T>) => {
         if (!queue) {
             queue = Promise.resolve(fn(...args));
         } else {
@@ -58,7 +58,7 @@ export function delayed<T extends (...args: any[]) => any>(
         const tmp = queue;
         queue = tmp.then(() => sleep(wait));
         return tmp as Promise<ReturnType<T>>;
-    }) as T;
+    };
 }
 
 /**

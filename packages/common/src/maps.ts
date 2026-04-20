@@ -17,7 +17,7 @@ export function has(obj: Nullable<object | Map<unknown, unknown>>, key: any): bo
     return (
         !!obj &&
         // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
-        (typeof (obj as any).has === 'function' ? (obj as Map<any, any>).has(key) : key in (obj as object))
+        (typeof (obj as any).has === 'function' ? (obj as Map<any, any>).has(key) : key in obj)
     );
 }
 

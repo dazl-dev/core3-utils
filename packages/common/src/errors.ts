@@ -5,6 +5,7 @@ import { isObject } from './objects.js';
  * an error instance, it's stringified and used as the error message.
  */
 export function toError(value: unknown): Error {
+    // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion
     return value instanceof Error ? value : new Error(value === undefined ? undefined : String(value as string));
 }
 
