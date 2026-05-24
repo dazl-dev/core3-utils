@@ -16,8 +16,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@file-services/memory": "^11.0.1",
-    "@file-services/types": "^11.0.1",
+    "@file-services/memory": "^11.1.0",
+    "@file-services/types": "^11.1.0",
     "@types/chai": "^5.2.3",
     "@types/chai-as-promised": "^8.0.2",
     "@types/mocha": "^10.0.10",

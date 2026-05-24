@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@dazl/common": "^18.10.0",
-    "@file-services/path": "^11.0.1",
-    "@file-services/types": "^11.0.1",
+    "@file-services/path": "^11.1.0",
+    "@file-services/types": "^11.1.0",
     "type-fest": "^5.6.0"
   },
   "author": "Dazl",
