@@ -30,6 +30,7 @@ export default defineConfig([
             '@typescript-eslint/no-unused-expressions': 'off',
             '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
             '@typescript-eslint/restrict-template-expressions': 'off',
+            '@typescript-eslint/unbound-method': 'off',
         },
     },
     configPrettier,
