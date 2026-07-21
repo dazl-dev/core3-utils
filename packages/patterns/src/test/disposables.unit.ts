@@ -31,7 +31,6 @@ describe('disposables', () => {
             expect(disposed).to.deep.equal([3, 2, 1]);
         });
         it('dispose() should be bound', async () => {
-            // eslint-disable-next-line @typescript-eslint/unbound-method
             const { dispose } = createDisposables('test');
             // will throw if unbound
             await dispose();
