@@ -13,7 +13,7 @@
   "dependencies": {
     "@dazl/common": "^18.10.0",
     "@dazl/patterns": "^18.10.0",
-    "chai": "^6.2.2",
+    "chai": "^6.3.0",
     "prettier": "^3.9.6",
     "promise-assist": "^2.0.1"
   },
